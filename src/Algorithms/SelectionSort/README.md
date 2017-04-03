@@ -10,4 +10,4 @@ Selection sort
 | 50000          | 14 sec. 829 ms       |
 | 100000         | 61 sec. 130 ms     |
 
-![Graph](http://ipic.su/img/img7/fs/Snimok.1491244514.jpg)
+![Graph](http://ipic.su/img/img7/fs/Snimok.1491245531.jpg)

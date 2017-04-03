@@ -3,11 +3,11 @@ Selection sort
 -----
 |  int Array[N]  | Runtime       | 
 |----------------|---------------|
-| 1000           | 1ms           |
-| 5000           | 25ms          |
-| 10000          | 73ms          |
-| 20000          | 2s:61ms       |
-| 50000          | 14s:1ms       |
-| 100000         | 1m:3s:1ms     |
+| 1000           | 10 ms           |
+| 5000           | 126 ms          |
+| 10000          | 515 ms          |
+| 20000          | 2 sec. 321 ms       |
+| 50000          | 14 sec. 829 ms       |
+| 100000         | 61 sec. 130 ms     |
 
-![Graph](http://i.piccy.info/i9/2de93b5987e490cc340e6c8e69de862a/1490887466/22830/1133367/Snymok.jpg)
+![Graph](http://ipic.su/img/img7/fs/Snimok.1491244514.jpg)

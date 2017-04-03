@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace SelectionSort
+namespace InsertionSort
 {
     class Program
     {
@@ -18,7 +18,7 @@ namespace SelectionSort
                 Console.BackgroundColor = ConsoleColor.White;
                 Console.ForegroundColor = ConsoleColor.Black;
                 Console.Clear();
-                Console.WriteLine("Selection Sort. Verloka Vadim, 2017");
+                Console.WriteLine("Insertion Sort. Verloka Vadim, 2017");
                 Console.WriteLine(new string('-', 50));
                 //input
                 int n = 0;
@@ -53,7 +53,7 @@ namespace SelectionSort
                         Stopwatch stopWatch = new Stopwatch();
                         stopWatch.Start();
                         /*SORT*/
-                        SelectionSort.Sort(ref arr);
+                        InsertionSort.Sort(ref arr);
                         stopWatch.Stop();
                         long ts = stopWatch.ElapsedMilliseconds;
                         Console.WriteLine($"{i}. Algorithm runtime [Milliseconds] - {ts}");

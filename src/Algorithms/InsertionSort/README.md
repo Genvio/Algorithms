@@ -10,4 +10,4 @@ Insertion sort
 | 50000          | 9 sec. 629 ms       |
 | 100000         | 38 sec. 356 ms     |
 
-![Graph](http://ipic.su/img/img7/fs/Snimok.1491243507.jpg)
+![Graph](http://ipic.su/img/img7/fs/Snimok.1491245415.jpg)

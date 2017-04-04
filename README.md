@@ -5,3 +5,4 @@
  - [Selection Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/SelectionSort)
  - [Bubble Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/BubbleSort)
  - [Quick Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/QuickSort)
+ - [Merge Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/MergeSort)

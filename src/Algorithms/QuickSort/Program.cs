@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace BubbleSort
+namespace QuickSort
 {
     class Program
     {
@@ -18,7 +18,7 @@ namespace BubbleSort
                 Console.BackgroundColor = ConsoleColor.White;
                 Console.ForegroundColor = ConsoleColor.Black;
                 Console.Clear();
-                Console.WriteLine("Bubble Sort. Verloka Vadim, 2017");
+                Console.WriteLine("Quick Sort. Verloka Vadim, 2017");
                 Console.WriteLine(new string('-', 50));
                 //input
                 int n = 0;
@@ -52,8 +52,9 @@ namespace BubbleSort
                         //sort
                         Stopwatch stopWatch = new Stopwatch();
                         stopWatch.Start();
-                        /*SORT*/
-                        BubbleSort.Sort(ref arr);
+                        /*Start*/
+                        QuickSort.Sort(ref arr, 0, n - 1);
+                        /*STOP*/
                         stopWatch.Stop();
                         long ts = stopWatch.ElapsedMilliseconds;
                         Console.WriteLine($"{i}. Algorithm runtime [Milliseconds] - {ts}");

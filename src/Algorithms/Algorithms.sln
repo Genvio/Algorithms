@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSort", "TreeSort\TreeSo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapSort", "HeapSort\HeapSort.csproj", "{2043E816-4ADE-4321-98D6-943CE7754760}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellSort", "ShellSort\ShellSort.csproj", "{27D26CEC-EB19-496A-84DC-71DCF521DD60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{2043E816-4ADE-4321-98D6-943CE7754760}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2043E816-4ADE-4321-98D6-943CE7754760}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2043E816-4ADE-4321-98D6-943CE7754760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D26CEC-EB19-496A-84DC-71DCF521DD60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D26CEC-EB19-496A-84DC-71DCF521DD60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D26CEC-EB19-496A-84DC-71DCF521DD60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D26CEC-EB19-496A-84DC-71DCF521DD60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{10C72C8F-2B3D-4FA0-875F-554C89C42704} = {C36B8BF5-0AD4-443C-B996-A48768CE404D}
 		{95A6D12C-F7DB-400B-B09C-7967EA9EE6DE} = {C36B8BF5-0AD4-443C-B996-A48768CE404D}
 		{2043E816-4ADE-4321-98D6-943CE7754760} = {C36B8BF5-0AD4-443C-B996-A48768CE404D}
+		{27D26CEC-EB19-496A-84DC-71DCF521DD60} = {C36B8BF5-0AD4-443C-B996-A48768CE404D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EFE8DFAA-2C95-42BB-9F77-72D7943A80AD}

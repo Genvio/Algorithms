@@ -1,5 +1,6 @@
 Merge sort
 ==============
+For the range of integer values of 0...99
 -----
 |  int Array[N]  | Runtime       | 
 |----------------|---------------|

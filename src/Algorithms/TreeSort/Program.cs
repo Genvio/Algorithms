@@ -57,23 +57,23 @@ namespace TreeSort
                         Stopwatch stopWatch = new Stopwatch();
                         stopWatch.Start();
                         /*Start*/
-                        //Tree.Sort(ref arr, 0, n - 1);
+                        Tree.Sort(ref arr);
                         /*STOP*/
                         stopWatch.Stop();
                         long ts = stopWatch.ElapsedMilliseconds;
-                        Console.WriteLine($"{i}. Algorithm runtime [Milliseconds] - {ts}");
+                        Console.WriteLine($"{i + 1}. Algorithm runtime [Milliseconds] - {ts}");
                         Avrg += ts;
 
                         if (display)
                         {
-                            Console.WriteLine("Sorted array:");
+                            Console.Write("Sorted array:");
                             foreach (var item in arr)
                                 Console.Write($"{item} ");
                             Console.Write('\n');
                         }
                     }
-                    Console.WriteLine($"Algorithm runtime, 9 iteration - {Avrg}");
-                    Console.WriteLine($"Algorithm runtime, Avrg - {Avrg / 9}");
+                    Console.WriteLine($"Algorithm runtime, 10 iteration - {Avrg}");
+                    Console.WriteLine($"Algorithm runtime, Avrg - {Avrg / 10}");
 
                     Console.Write("Retry?[y/n] ");
                     retry = Console.ReadLine() == "y" ? true : false;

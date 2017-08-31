@@ -7,9 +7,9 @@
 
 |Algorithm  |Сomplexity   	|Memory   	|
 |:--- 	    |:--- 	        |:---: 	    |
-| [Insertion Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/InsertionSort) | ![Insertion](http://mathurl.com/y84xndgf.png) | \- |
-| [Selection Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/SelectionSort) | ![Selection](http://mathurl.com/y84xndgf.png) | \- |
-| [Bubble Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/BubbleSort) | ![Bubble](http://mathurl.com/y84xndgf.png) | \- |
-|[Quick Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/QuickSort)| ![Quick](http://mathurl.com/ybaxoxnb.png) | \- |
-| [Merge Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/MergeSort) | ![Merge](http://mathurl.com/ya7dl7j2.png) | ![Merge2](http://mathurl.com/yauh8dan.png) |
-|[Tree Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/TreeSort)| ![Tree](http://mathurl.com/ya7dl7j2.png) | ![Tree2](http://mathurl.com/yauh8dan.png) |
+| [Insertion Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/InsertionSort) | ![Insertion](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/n%5E2.png) | \- |
+| [Selection Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/SelectionSort) | ![Selection](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/n%5E2.png) | \- |
+| [Bubble Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/BubbleSort) | ![Bubble](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/n%5E2.png) | \- |
+|[Quick Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/QuickSort)| ![Quick](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/quick.png) | \- |
+| [Merge Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/MergeSort) | ![Merge](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/nlogn.png) | ![Merge2](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/on.png) |
+|[Tree Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/TreeSort)| ![Tree](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/nlogn.png) | ![Tree2](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/on.png) |

@@ -109,4 +109,4 @@ Backup*/
 UpgradeLog*.XML
 
 src/.vs/
-src/Windows/.vs/
+src/Algorithms/.vs/

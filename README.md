@@ -7,8 +7,8 @@
 
 |Algorithm  |Сomplexity   	|Memory   	|Stability     |
 |:--- 	    |:--- 	        |:---: 	    |:---:         |
-| [Insertion Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/InsertionSort) | ![Insertion](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/n%5E2.png) | \- | | X |
-| [Selection Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/SelectionSort) | ![Selection](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/n%5E2.png) | \- | | ✔ |
+| [Insertion Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/InsertionSort) | ![Insertion](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/n%5E2.png) | \- | | :x: |
+| [Selection Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/SelectionSort) | ![Selection](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/n%5E2.png) | \- | | :heavy_check_mark: |
 | [Bubble Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/BubbleSort) | ![Bubble](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/n%5E2.png) | \- | | U+2714 |
 |[Quick Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/QuickSort)| ![Quick](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/quick.png) | \- | | X |
 | [Merge Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/MergeSort) | ![Merge](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/nlogn.png) | ![Merge2](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/on.png) | | X |

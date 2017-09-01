@@ -57,7 +57,7 @@ namespace SmoothSort
                         Stopwatch stopWatch = new Stopwatch();
                         stopWatch.Start();
                         /*Start*/
-                        Smooth.SmoothSort(ref arr, arr.Length);
+                        Smooth.SmoothSort(ref arr);
                         /*STOP*/
                         stopWatch.Stop();
                         long ts = stopWatch.ElapsedMilliseconds;

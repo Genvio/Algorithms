@@ -8,39 +8,25 @@ namespace SmoothSort
 {
     public class Smooth
     {
-        Leonardo leo;
+        static int q, r, p, b, c, r1, b1, c1;
 
-        public Smooth()
-        {
-            leo = new Leonardo();
-        }
-
-        public void Sort(ref int[] array)
-        {
-        }
-
-        private static bool IsAscending(int A, int B)
+        static bool IsAscending(int A, int B)
         {
             return A < B;
         }
-
-        private static void UP(ref int IA, ref int IB, ref int temp)
+        static void UP(ref int IA, ref int IB, ref int temp)
         {
             temp = IA;
             IA += IB + 1;
             IB = temp;
         }
-
         private static void DOWN(ref int IA, ref int IB, ref int temp)
         {
             temp = IB;
             IB = IA - IB - 1;
             IA = temp;
         }
-
-        private static int q, r, p, b, c, r1, b1, c1;
-
-        private static void Sift(ref int [] A)
+        static void Sift(ref int [] A)
         {
             int r0, r2, temp = 0;
             int t;
@@ -72,8 +58,7 @@ namespace SmoothSort
             if (Convert.ToBoolean(r1 - r0))
                 A[r1] = t;
         }
-
-        private static void Trinkle(ref int [] A)
+        static void Trinkle(ref int [] A)
         {
             int p1, r2, r3, r0, temp = 0;
             int t;
@@ -139,8 +124,7 @@ namespace SmoothSort
 
             Sift(ref A);
         }
-
-        private static void SemiTrinkle(ref int [] A)
+        static void SemiTrinkle(ref int [] A)
         {
             int T;
             r1 = r - c;
@@ -154,7 +138,7 @@ namespace SmoothSort
             }
         }
 
-        public static void SmoothSort(ref int[] array, int N)
+        public static void SmoothSort(ref int[] array)
         {
             int temp = 0;
             q = 1;
@@ -163,7 +147,7 @@ namespace SmoothSort
             b = 1;
             c = 1;
 
-            while (q < N)
+            while (q < array.Length)
             {
                 r1 = r;
                 if ((p & 7) == 3)
@@ -177,7 +161,7 @@ namespace SmoothSort
                 }
                 else if ((p & 3) == 1)
                 {
-                    if (q + c < N)
+                    if (q + c < array.Length)
                     {
                         b1 = b;
                         c1 = c;

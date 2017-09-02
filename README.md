@@ -16,3 +16,4 @@
 |[Heapsort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/HeapSort)| ![Heap](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/nlogn.png) | 1 | :heavy_multiplication_x: |
 |[Shell Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/ShellSort)| ![Shell](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/shell.png) | 1 | :heavy_multiplication_x: |
 |[Smooth Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/SmoothSort)| ![Smooth](https://raw.githubusercontent.com/ogycode/Algorithms/master/merch/math/smooth.png) | 1 | :heavy_multiplication_x: |
+|[Bucket Sort](https://github.com/ogycode/Algorithms/tree/master/src/Algorithms/BucketSort)| ![Bucket](http://mathurl.com/yd9bzst3.png) | n*k | :heavy_check_mark: |

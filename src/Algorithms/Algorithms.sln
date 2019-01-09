@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmoothSort", "SmoothSort\Sm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BucketSort", "BucketSort\BucketSort.csproj", "{CC1B1080-9838-4803-8E71-2F0FE0961DFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{2C28D19A-2127-4517-9A54-4639F73754F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{A404C61A-C09E-477A-A961-3BA3E8A0824A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +75,10 @@ Global
 		{CC1B1080-9838-4803-8E71-2F0FE0961DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC1B1080-9838-4803-8E71-2F0FE0961DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC1B1080-9838-4803-8E71-2F0FE0961DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C28D19A-2127-4517-9A54-4639F73754F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C28D19A-2127-4517-9A54-4639F73754F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C28D19A-2127-4517-9A54-4639F73754F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C28D19A-2127-4517-9A54-4639F73754F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +94,7 @@ Global
 		{27D26CEC-EB19-496A-84DC-71DCF521DD60} = {C36B8BF5-0AD4-443C-B996-A48768CE404D}
 		{5E483AE5-5EF0-4665-B95C-A945A95474C7} = {C36B8BF5-0AD4-443C-B996-A48768CE404D}
 		{CC1B1080-9838-4803-8E71-2F0FE0961DFD} = {C36B8BF5-0AD4-443C-B996-A48768CE404D}
+		{2C28D19A-2127-4517-9A54-4639F73754F6} = {A404C61A-C09E-477A-A961-3BA3E8A0824A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EFE8DFAA-2C95-42BB-9F77-72D7943A80AD}
